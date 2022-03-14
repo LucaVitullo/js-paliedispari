@@ -24,7 +24,7 @@ function pariODispari (numeroComputer, numeroUtente){
     console.log( "Tu hai inserito il numero " + numeroUtente, " ed il computer ha inserito il numero " + numeroComputer);
     console.log("La somma è " + somma);
     if(somma % 2 !== 0){
-        return 'dipari';
+        return 'dispari';
     }else {
         return 'pari';
     }
